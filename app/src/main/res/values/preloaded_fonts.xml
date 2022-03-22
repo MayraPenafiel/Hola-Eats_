@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/EXO</item>
+        <item>@font/butterfly_kids</item>
+        <item>@font/exo_2</item>
+        <item>@font/fahkwang_extralight</item>
+        <item>@font/m_plus_rounded_1c</item>
+        <item>@font/rouge_script</item>
+        <item>@font/ruluko</item>
+    </array>
+</resources>

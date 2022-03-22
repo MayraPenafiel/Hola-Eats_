@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HolaEats</string>
+    <string name="historialPedidos">Historial de Pedidos</string>
+    <string name="verDetalles">Ver Detalles</string>
+    <string name="fecha">04 de Abril  de 2020</string>
+    <string name="total">$105.20</string>
+    <string name="cantidad">5 Productos</string>
+    <string name="todo">TODO</string>
+    <string name="terminosCondiciones">Terminos y Condiciones</string>
+    <string name="Politicas">Politicas de Privacidad</string>
+    <string name="tst_instdes">1....... 2.     3.     4.....5....... </string>
+    <string name="tC_detalles">Recuerda: si te registras, aceptas nuestra política de privacidad y nuestros términos de servicio.</string>
 </resources>
