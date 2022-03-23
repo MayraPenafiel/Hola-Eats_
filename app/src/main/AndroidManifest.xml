@@ -11,6 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaEats">
         <activity
+            android:name=".Cancelar"
+            android:exported="false" />
+        <activity
+            android:name=".Confirmar"
+            android:exported="false" />
+        <activity
+            android:name=".Registrarse"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".TerminosCondicionesPoliticas"
             android:exported="false" />
         <activity

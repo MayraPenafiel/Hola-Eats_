@@ -10,4 +10,26 @@
     <string name="Politicas">Politicas de Privacidad</string>
     <string name="tst_instdes">1....... 2.     3.     4.....5....... </string>
     <string name="tC_detalles">Recuerda: si te registras, aceptas nuestra política de privacidad y nuestros términos de servicio.</string>
+    <string name="txttitulolgo">Inicio de sesión</string>
+    <string name="hintusuario">Ingrese su usuario</string>
+    <string name="hintcontrasenia">Ingrese su contraseña</string>
+    <string name="btniniciar_sesion">Iniciar sesión</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="txttituloregistro">Registrarse</string>
+    <string name="cedula_txt">Cedula:</string>
+    <string name="nombretxt">Nombre:</string>
+    <string name="apellidotxtx">Apellido:</string>
+    <string name="correotxt">Correo:</string>
+    <string name="direcciontxt">Direccion:</string>
+    <string name="telefonotxt">Telefono:</string>
+    <string name="contraseniatxt">Contraseña:</string>
+    <string name="confirmartxt">Confirmar\ncontraseña:</string>
+    <string name="btnregistrarsesion">Registrarse</string>
+    <string name="btncancelar">Cancelar</string>
+    <string name="confirmarpedidotxtx">¡ORDEN\nCONFIRMADA!</string>
+    <string name="descripciontxtx">¡Su orden esta próxima a llevarse,\n espere a nuestro repartidor!</string>
+    <string name="btnkisto">¡LISTO!</string>
+    <string name="cancelarpedidotxtx">¡ORDEN\nRECHAZADA!</string>
+    <string name="descripcion2txt">¡Usted ha rechazado o\n cancelado el pedido!</string>
+    <string name="btncancelarpedido">¡VOLVER AL INICIO!</string>
 </resources>
