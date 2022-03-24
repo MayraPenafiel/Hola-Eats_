@@ -5,36 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/negro"
-    tools:context=".MenuOpciones.DetallePedidos">
+    tools:context=".MenuOpciones.TerminosCondicioesPoliticas">
 
     <TextView
-        android:id="@+id/TVDetallePedido"
+        android:id="@+id/TCPTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="@string/fecha"
+        android:text="@string/terminosCondiciones"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
-
-    <ImageView
-        android:id="@+id/iVLogo"
-        android:layout_width="85dp"
-        android:layout_height="66dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03"
-        app:srcCompat="@drawable/hola_eats_logo_solo"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+        app:layout_constraintVertical_bias="0.147" />
 
     <ImageButton
         android:id="@+id/btregresar"
@@ -53,31 +39,29 @@
         app:tint="@color/blanco_bn"
         tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
+    <ImageView
+        android:id="@+id/iVLogo"
+        android:layout_width="85dp"
+        android:layout_height="66dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/hola_eats_logo_solo"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
     <TextView
-        android:id="@+id/TVtotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="@string/total"
-        android:textColor="@color/verde"
-        android:textSize="16sp"
+        android:id="@+id/TVContenido"
+        android:layout_width="295dp"
+        android:layout_height="441dp"
+        android:text="@string/tst_instdes"
+        android:textColor="@color/blanco_bn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TVDetallePedido"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ListView
-        android:id="@+id/listViewDetallePedidos"
-        android:layout_width="316dp"
-        android:layout_height="442dp"
-        android:layout_marginBottom="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TVDetallePedido"
-        app:layout_constraintVertical_bias="1.0" />
-
+        app:layout_constraintTop_toBottomOf="@+id/TCPTitulo"
+        app:layout_constraintVertical_bias="0.372" />
 </androidx.constraintlayout.widget.ConstraintLayout>

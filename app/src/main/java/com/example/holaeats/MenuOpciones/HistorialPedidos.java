@@ -1,14 +1,16 @@
-package com.example.holaeats;
+package com.example.hola_eats.MenuOpciones;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TerminosCondicionesPoliticas extends AppCompatActivity {
+import com.example.hola_eats.R;
+
+public class HistorialPedidos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_terminos_condiciones_politicas);
+        setContentView(R.layout.activity_historial_pedidos);
     }
 }

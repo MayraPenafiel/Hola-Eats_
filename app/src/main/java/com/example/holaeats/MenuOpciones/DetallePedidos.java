@@ -1,8 +1,10 @@
-package com.example.holaeats;
+package com.example.hola_eats.MenuOpciones;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.hola_eats.R;
 
 public class DetallePedidos extends AppCompatActivity {
 
